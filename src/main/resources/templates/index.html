@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>간단 게시판</title>
+        <link rel="stylesheet" type="text/css" href="../static/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="../static/css/index.css">
+        <script src="https://kit.fontawesome.com/44bcb903a4.js" crossorigin="anonymous"></script>
+        <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+    </head>
+    <body>
+        <div id="wrap">
+            <section id="select">
+                <ul class="search">
+                    <li>
+                        <p>회 사</p>
+                        <select>
+                            <option value="회사1">회사1</option>
+                            <option value="회사2">회사2</option>
+                            <option value="회사3">회사3</option>
+                            <option value="회사4">회사4</option>
+                        </select>
+                    </li>
+                    <li>
+                        <p>등록자</p>
+                        <input type="text">
+                    </li>
+                    <li>
+                        <p>등록일자</p>
+                        <input class="start-date" type="text" readonly>
+                        <span>~</span>
+                        <input class="end-date" type="text" readonly>
+                    </li>
+                </ul>
+                <article class="four-btn">
+                    <button class="btn regist-btn">등록</button>
+                    <button class="btn replace-btn">수정</button>
+                    <button class="btn">삭제</button>
+                    <button class="btn">조회</button>
+                </article>
+                <table class="select-tb">
+                    <th class="chk">선택</th>
+                    <th>제목</th>
+                    <th>등록일자</th>
+                    <th>등록자</th>
+                    <th>조회수</th>
+                    <th>첨부파일</th>
+                    <tr><!-- 첫번째 줄 시작 -->
+                        <td><input type="radio" name="pick" value=""></td>
+                        <td>게시판 테스트1</td>
+                        <td>2023.02.01</td>
+                        <td>이피피에스</td>
+                        <td>1</td>
+                        <td><input type="file" value="첨부파일"></td>
+                    </tr>
+                    <tr><!-- 두번째 줄 시작 -->
+                        <td><input type="radio" name="pick" value=""></td>
+                        <td>게시판 테스트2</td>
+                        <td>2023.02.01</td>
+                        <td>이피피에스</td>
+                        <td>10</td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr><!-- 세번째 줄 시작 -->
+                        <td><input type="radio" name="pick" value=""></td>
+                        <td>게시판 테스트4</td>
+                        <td>2023.02.01</td>
+                        <td>이피피에스</td>
+                        <td>8</td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr><!-- 세번째 줄 시작 -->
+                        <td><input type="radio" name="pick" value=""></td>
+                        <td>게시판 테스트4</td>
+                        <td>2023.02.01</td>
+                        <td>이피피에스</td>
+                        <td>8</td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr><!-- 세번째 줄 시작 -->
+                        <td><input type="radio" name="pick" value=""></td>
+                        <td>게시판 테스트4</td>
+                        <td>2023.02.01</td>
+                        <td>이피피에스</td>
+                        <td>8</td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr><!-- 세번째 줄 시작 -->
+                        <td><input type="radio" name="pick" value=""></td>
+                        <td>게시판 테스트4</td>
+                        <td>2023.02.01</td>
+                        <td>이피피에스</td>
+                        <td>8</td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr><!-- 세번째 줄 시작 -->
+                        <td><input type="radio" name="pick" value=""></td>
+                        <td>게시판 테스트4</td>
+                        <td>2023.02.01</td>
+                        <td>이피피에스</td>
+                        <td>8</td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr><!-- 세번째 줄 시작 -->
+                        <td><input type="radio" name="pick" value=""></td>
+                        <td>게시판 테스트4</td>
+                        <td>2023.02.01</td>
+                        <td>이피피에스</td>
+                        <td>8</td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr><!-- 세번째 줄 시작 -->
+                        <td><input type="radio" name="pick" value=""></td>
+                        <td>게시판 테스트4</td>
+                        <td>2023.02.01</td>
+                        <td>이피피에스</td>
+                        <td>8</td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr><!-- 세번째 줄 시작 -->
+                        <td><input type="radio" name="pick" value=""></td>
+                        <td>게시판 테스트4</td>
+                        <td>2023.02.01</td>
+                        <td>이피피에스</td>
+                        <td>8</td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr><!-- 세번째 줄 시작 -->
+                        <td><input type="radio" name="pick" value=""></td>
+                        <td>게시판 테스트4</td>
+                        <td>2023.02.01</td>
+                        <td>이피피에스</td>
+                        <td>8</td>
+                        <td><input type="file"></td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+        <script src="../static/js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,84 @@
+#wrap{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/* 등록 페이지 *//* 등록 페이지 */
+#replace > .resist{
+    height: 15vh;
+    background-color: #3E54AC;
+    padding: 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    align-items: center;
+}
+
+#replace > .resist span{
+    width: 25%;
+}
+
+#replace > .resist > li{
+    display: flex;
+    width: 33.33%; height: 40px;
+    align-items: center;
+}
+
+/* 등록일자 */
+#replace > .resist > li:nth-child(3) > input{
+    width: 70%;
+    margin-right: 5px;
+}
+
+#replace > .resist img{
+    width: 24px; height: 24px;
+}
+
+
+/* 타이틀 *//* 타이틀 */
+#replace > .title{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #ECF2FF;
+}
+
+#replace > .title span{
+    width: 8.5%;
+    color: #3E54AC;
+    font-weight: 600;
+}
+
+#replace > .title input{
+    width: 91.5%; height: 28px;
+    border: 1px solid #3E54AC;
+}
+
+#replace .btn{
+    width: 50px; height: 30px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+/* 본문내용 *//* 본문내용 */
+#replace > article{
+    width: 100%; height: 70vh;
+    padding: 20px 40px;
+    background-color: #ECF2FF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+#replace > article > textarea{
+    width: 100%; height: 90%;
+    padding: 20px;
+    border: 1px solid #3E54AC;
+    resize: none;
+}
+
+#replace > article > .replace-btn{
+    width: 150px; height: 40px;
+    font-size: 16px;
+}

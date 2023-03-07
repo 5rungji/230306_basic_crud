@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.basicCRUD.basic230306CRUD.repository.RegisterRepository">
+<!--게시글 등록-->
+    <insert id="postInsert"
+            parameterType="com.basicCRUD.basic230306CRUD.domain.Post"
+            useGeneratedKeys="true"
+    >
+        insert into
+        BOARD_YOURI(
+            post_title,
+            company_name,
+            user_name,
+            user_pw,
+            post_content,
+            upload_file,
+            post_create_date
+        )
+        values(
+            #{post_title},
+            #{company_name},
+            #{user_name},
+            #{user_pw},
+            #{post_content},
+            #{upload_file},
+            #{post_create_date}
+        )
+    </insert>
+</mapper>

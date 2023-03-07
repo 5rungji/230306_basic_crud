@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>수정 페이지</title>
+        <link rel="stylesheet" type="text/css" href="../static/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="../static/css/replace.css">
+        <script src="https://kit.fontawesome.com/44bcb903a4.js" crossorigin="anonymous"></script>
+        <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    </head>
+    <body>
+        <div id="wrap">
+            <section id="replace">
+            <!-- 수정 정보 -->
+                <ul class="resist">
+                    <li>
+                        <span>회 사</span>
+                        <input type="text" readonly>
+                    </li>
+                    <li>
+                        <span>등록자</span>
+                        <input type="text" readonly>
+                    </li>
+                    <li>
+                        <span>등록일자</span>
+                        <input type="text" readonly>
+                    </li>
+                    <li>
+                        <span>비밀번호</span>
+                        <input type="password">
+                    </li>
+                    <li>
+                        <span>첨부파일</span>
+                        <input type="file">
+                    </li>
+                </ul>
+            <!-- 타이틀 -->
+                <div class="title">                    
+                    <span>제 목</span>
+                    <input type="text" placeholder="제목을 입력 해주세요">
+                </div>
+            <!-- 본문내용 -->
+                <article>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="내용을 입력 해주세요"></textarea>
+                    <button class="btn replace-btn">수정하기</button>
+                </article>
+            </section>
+        </div>
+    </body>
+</html>

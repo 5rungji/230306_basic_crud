@@ -1,0 +1,90 @@
+/* reset.css */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+메인 컬러
+    background-color: #fafafa;
+    연보라 ECF2FF
+    연파랑 3E54AC
+    보라 655DBB
+    연보라 BFACE2
+*/
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px; /* 12px 21px 36px 80px*/
+    font-weight: 500;
+    color: #ffffff;
+}
+
+img{
+    display: block;
+    border: none;
+}
+
+ul, ol, li{
+    list-style:none;
+}
+
+select{
+    padding: 3px 5px;
+    border: none;
+}
+
+input{
+    padding: 3px 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+input:focus{
+    outline: none;
+}
+
+input::placeholder {
+    /* color: rgb(190, 190, 190); */
+    font-weight: 500;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #5c5c5c;
+}
+
+a:hover{
+    color: #BFACE2;
+}
+
+.focus-scale:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+
+/* 숨김 기능 */
+.invisible{
+    display: none;
+}
+
+/* 버튼 */
+.btn{
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+    border: none;
+    background-color: #3E54AC;
+}
+
+.btn:hover{
+    background-color: #655DBB;
+}

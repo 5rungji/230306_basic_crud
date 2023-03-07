@@ -1,0 +1,30 @@
+
+server:
+  port: 8001
+
+spring:
+  mvc:
+    static-path-pattern: /static/**
+
+  thymeleaf:
+    prefix: "classpath:templates/"
+    suffix: ".html"
+
+  datasource :
+    driver-class-name : oracle.jdbc.driver.OracleDriver
+    url : jdbc:oracle:thin:@localhost:1521:xe
+    username : meet
+    password : meet1234
+
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+
+mybatis:
+  mapper-locations:
+    - /mappers/*.xml
+
+file:
+  path: D:/youri/01.Study/230306_basic_crud/upload/

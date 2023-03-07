@@ -1,0 +1,105 @@
+#wrap{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/* 조회 페이지 *//* 조회 페이지 */
+#select > .search{
+    background-color: #3E54AC;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#select > .search p{
+    margin: 0px 10px;
+}
+
+#select > .search span{
+    width: 30px;
+    text-align: center;
+}
+
+#select > .search > li{
+    display: flex;
+    align-items: center;
+}
+
+#select > .search > li > select{
+    width: 180px;
+    border-radius: 5px;
+}
+
+
+/* 등록일자 */
+#select > .search > li:nth-child(3) > input{
+    width: 100px;
+    margin-right: 5px;
+}
+
+#select > .search img{
+    width: 24px; height: 24px;
+}
+
+/* CRUD 버튼 *//* CRUD 버튼 */
+#select > .four-btn{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    background-color: #ECF2FF;
+}
+
+#select > .four-btn .btn{
+    width: 50px; height: 30px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+
+
+/* 조회 */
+#select > .select-tb{
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#select > .select-tb th{
+    background-color: #3E54AC;
+    font-weight: 500;
+}
+
+#select > .select-tb td{
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    padding: 0px 5px;
+}
+
+#select > .select-tb td:nth-child(1){
+    width: 5%;
+}
+
+#select > .select-tb td:nth-child(2){
+    width: 35%;
+    text-align: left;
+}
+
+#select > .select-tb td:nth-child(3){
+    width: 15%;
+}
+
+#select > .select-tb td:nth-child(4){
+    width: 20%;
+}
+
+#select > .select-tb td:nth-child(5){
+    width: 10%;
+}
+
+#select > .select-tb td:nth-child(6){
+    width: 15%;
+    overflow: hidden;
+}
