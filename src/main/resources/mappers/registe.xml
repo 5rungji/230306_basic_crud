@@ -9,7 +9,7 @@
             useGeneratedKeys="true"
     >
         insert into
-        BOARD_YOURI(
+        basicCRUD(
             post_title,
             company_name,
             user_name,
